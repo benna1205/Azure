@@ -1,0 +1,9 @@
+---
+- name: creating behalya
+  hosts: all
+  become: true
+  tasks:
+    - name: srikanth
+      shell:
+        cmd: mkdir behalya
+
